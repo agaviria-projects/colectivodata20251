@@ -8,5 +8,5 @@ asistenciaDataFrame=pd.read_csv("./data/asistencia_estudiantes_completo.csv")
 #print(asistenciaDataFrame.info())
 #print(asistenciaDataFrame.head(20))
 #print(asistenciaDataFrame.describe())
-print(asistenciaDataFrame['estrato'].value_counts())
+print(asistenciaDataFrame['estrato'].value_counts().head(2))
 
